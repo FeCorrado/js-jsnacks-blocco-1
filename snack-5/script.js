@@ -4,7 +4,7 @@ let sommaNumeri = 0
 do{
     numeri = prompt("Inserisci numero")
     array.push(numeri)
-    sommaNumeri += parseInt(array)
+    sommaNumeri += parseInt(numeri)
     console.log("aggiungi un altro numero")
 }while(sommaNumeri < 50)
 
